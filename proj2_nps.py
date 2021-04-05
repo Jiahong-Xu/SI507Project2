@@ -274,7 +274,7 @@ def main():
             continue
         else:
             number_input = int(number_input)
-            if number_input>len(sites_list):
+            if number_input>len(sites_list) or number_input <= 0:
                 print("[ERROR] Enter a valid number.")
                 continue
             else:
